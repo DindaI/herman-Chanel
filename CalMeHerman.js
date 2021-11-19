@@ -88,7 +88,7 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 owner = setting.owner
 gamewaktu = setting.gamewaktu
 petik = '```'
-fake = '©ItsMeBotz'//GANTI NAMA KAMU BEP
+fake = '©FAISAL GANZ'//GANTI NAMA KAMU BEP
 ban =[]
 
 // Database
@@ -851,9 +851,9 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ᱝ *Baterai :* ${baterai}% 
 
 ༒ *INFO BOT* ༒
-ᱝ *Nama : *ItsMeBotz*
-ᱝ *Nomor :* @6283146208804 (pembuat)
-ᱝ *Owner : *Herman* 
+ᱝ *Nama : *Faisal Botz*
+ᱝ *Nomor :* @62858770642900 (pembuat)
+ᱝ *Owner : *FAISAL* 
 ᱝ *Aiktif :*  ${runtime(process.uptime())}
 ᱝ *Prefix :* 『> ${prefix} <』
 
@@ -980,7 +980,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,   `Subscribe https://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg`, list)
+               listmsg(from, `${ucapanWaktu}`,   `Subscribe https://youtube.com/channel/UC_vf3Ole7QT7ky_r2Zji6mw`, list)
                break
 //------------------< Game >------------------- 
         case 'limitgame': 
@@ -1509,15 +1509,16 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'sewabot':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*[ PRICE LIST ]*
-*Sewa Bot Hêrmåñ ßð†z*
+*Sewa Bot FAISAL ßð†z*
 *1 Hari :* 2K
-*1 Minggu :* 10K
-*1 Bulan :* 20K
+*1 Minggu :* 5K
+*1 Bulan :* 10K
+*PERMANEN :* 15K
 *Minat untuk Sewa Bot?* Chat Owner!
 *Dengan cara, Ketik* ${prefix}owner *Ya!*`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break             
-//------------------< by herman chanel >-------------------  
+//------------------< by FAISAL >-------------------  
 case 'audio1':
 man = fs.readFileSync('./herman/audio1.mp3');
 dha.sendMessage(from, man, MessageType.audio, {quoted: ftoko, mimetype: 'audio/mp4', ptt:true})
@@ -1550,10 +1551,10 @@ break
 case 'bayar':
 gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
 teksnya = `*[ PAYMENT ]*
-*Gopay :* 083840290711
-*Dana :* 083146208804
-*Ovo :* 083146208804
-*[ Hêrmåñ ßð†z ]*`
+*Gopay :* 085877064290
+*Dana :* 085877064290
+*Ovo :* 085877064290
+*[ Faisal ßð†z ]*`
         dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  
@@ -1581,7 +1582,7 @@ ItsMeBotz
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「DOWNLOAD MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-ItsMeBotz
+FaisalBotz
 
 *き⃟🦈 ${prefix}fbdl*
 *き⃟🦈 ${prefix}igdl*
@@ -1604,14 +1605,14 @@ case 'buttonpen':
               teksnya = `*「NULIS MENU」*
 *き⃟🦈 ${prefix}nulis*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-ItsMeBotz`
+FaisalBotz`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongame':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「GAME MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-ItsMeBotz
+FaisalBotz
 
 き⃟🦈 ${prefix}limitgame*
 *き⃟🦈 ${prefix}slot*
@@ -1640,7 +1641,7 @@ case 'buttongc':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「GRUP MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-Hêrmåñ ßð†z
+Faisal ßð†z
 
 *き⃟🦈 ${prefix}groupsetting*
 *き⃟🦈 ${prefix}getbio* _reply_
@@ -1672,7 +1673,7 @@ case 'buttonwibu':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「WIBU MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-ItsMeBotz
+FaisalBotz
 
 *き⃟🦈 ${prefix}loli*
 *き⃟🦈 ${prefix}manga*
@@ -1704,7 +1705,7 @@ case 'buttonown':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「OWNER MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-ItsMeBotz
+FaisalBotz
 
 *き⃟🦈️ ${prefix}bc* _teks_
 *き⃟🦈 ${prefix}tobc* _audio_
@@ -1731,8 +1732,7 @@ ItsMeBotz
 case 'pricegtivd':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*Price Role GTIVD*
-*Link Grup :* https://chat.whatsapp.com/I2yoiNRMkJD8rzOFtD2onA
-
+*Link Grup :* https://chat.whatsapp.com/DpbYYSymEyQDWhWO3p9hDH
 VIP       : *40 World Locks*
 Mod     : *70 World Locks*
 Admin : *150 World Locks*
@@ -1740,13 +1740,13 @@ Divine  : *200 World Locks*
 Owner  : *3 Diamond Locks*
 
 *Order Role? Chat Owner :*
-*iVend :* wa.me/6283146208804`
+*iVend :* wa.me/6285877064290`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'pricegtli':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `Welcome, Price Role GTLI*
-*Link Grup : https://chat.whatsapp.com/L9HTjy9FBJIBm3SfQS1pE5
+*Link Grup : https://chat.whatsapp.com/DpbYYSymEyQDWhWO3p9hDH
 
 *Not Unli Role :*
 Devil       : *50 World Locks*
@@ -1770,13 +1770,13 @@ C Role Not Unli : *300 World Locks*
 C Role Unli : *600 World Locks*
 
 *Order Role? Bisa pake Goopay!*
-*Chat Owner :* wa.me/6283146208804`
+*Chat Owner :* wa.me/6285877064290`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'pricegtfo':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*Price Role GTFO*
-*Link Grup : https://chat.whatsapp.com/L9HTjy9FBJIBm3SfQS1pE5
+*Link Grup : https://chat.whatsapp.com/DpbYYSymEyQDWhWO3p9hDH
 
 Mod     : *80 World Locks*
 Admin : *150 World Locks*
@@ -1786,7 +1786,7 @@ Manager  : *4 Diamond Locks*
 Owner  : *7 Diamond Locks*
 
 *Order Role? Chat Owner :*
-*UFO GTFO :* wa.me/623146208804`
+*UFO GTFO :* wa.me/6285877064290`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'ruleswave':
@@ -1805,13 +1805,13 @@ case 'ruleswave':
 *Wajib Nge team tour!!*
 *No Sparing Guild!!*
 
-*Saran CN :* WAVEㅤ(NAMA)
+*Saran CN :* Name•「Stb」
 *WAJIB PUSH DT 1ORANG 100DT!!*
 *HARUS PUNYA BUKTI SS,KALO UDAH SAMPAI 100DT!!*
 *3HARI GA ON KICK!!*
 
-*ID Guild :* -
-*Minat Join? Chat* wa.me/683146208804
+*ID Guild : chat Owner* -
+*Minat Join? Chat* wa.me/6285877064290
 #WAVEFOREVER!`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break

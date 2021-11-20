@@ -250,7 +250,7 @@ module.exports = dha = async (dha, mek) => {
         const gcount = setting.gcount
         
         const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = dha.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "𝕾𝖎𝖑𝖆𝖍𝖐𝖆𝖓 𝕻𝖎𝖑𝖎𝖍 𝕯𝖎𝖘𝖓𝖎!","footerText": "Herman Chanel❤️","listType": "SINGLE_SELECT","sections": list}}, {})
+            let po = dha.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "𝕾𝖎𝖑𝖆𝖍𝖐𝖆𝖓 𝕻𝖎𝖑𝖎𝖍 𝕯𝖎𝖘𝖓𝖎!","footerText": "FAISALBOTZ 🇮🇩","listType": "SINGLE_SELECT","sections": list}}, {})
             return dha.relayWAMessage(po, {waitForAck: true})
         }
         
@@ -871,14 +871,14 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ᱝ *User :* ${pushname}
 
 *Request fitur?* Ketik ${prefix}owner Ya!
-*Sewa bot?* Chat wa.me/6283146208804`
+*Sewa bot?* Chat wa.me/62858770642900`
                buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'SEMUAH FITUR😈'},type:1},{buttonId: `${prefix}vn`,buttonText:{displayText: 'MENU VN🗣️'},type:1},{buttonId:`${prefix}donasi`,buttonText:{displayText:'SEDEKAH🤡'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: 'ItsMeBotz', imageMessage: imageMsg,
+               footerText: 'Faisalbotz', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1770,7 +1770,7 @@ C Role Not Unli : *300 World Locks*
 C Role Unli : *600 World Locks*
 
 *Order Role? Bisa pake Goopay!*
-*Chat Owner :* wa.me/6285877064290`
+*Chat Owner :* wa.me/62858770642900`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'pricegtfo':
@@ -1786,7 +1786,7 @@ Manager  : *4 Diamond Locks*
 Owner  : *7 Diamond Locks*
 
 *Order Role? Chat Owner :*
-*UFO GTFO :* wa.me/6285877064290`
+*UFO GTFO :* wa.me/62858770642900`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'ruleswave':
@@ -1811,7 +1811,7 @@ case 'ruleswave':
 *3HARI GA ON KICK!!*
 
 *ID Guild : chat Owner* -
-*Minat Join? Chat* wa.me/6285877064290
+*Minat Join? Chat* wa.me/62858770642900
 #WAVEFOREVER!`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
@@ -3650,7 +3650,7 @@ case 'getvn':
              link = args[0].replace('https://chat.whatsapp.com/','')
              fak = dha.query({ json: ['action', 'invite', link],
              expect200: true })
-             reply('Berhasil Masuk Grup')
+             reply('Berhasil Masuk Grup Owner FAISAL')
              break
       case 'eval':
              try {
@@ -3679,11 +3679,11 @@ case 'getvn':
              } else {
              for (let _ of anu) {
 dha.sendMessage(_.jid, 
-			{"contentText": `*「 Siaran HermanBot 」*\n#Ijin Siaran\n*Isi Pesan :* ${body.slice(4)}`,
-			"footerText": 'Hêrmåñ ßð†z',
+			{"contentText": `*「 Siaran FaisalBot 」*\n*Isi Pesan :* ${body.slice(4)}`,
+			"footerText": 'Faisal ßð†z',
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
-			"buttonText": {"displayText": "LIST MENU"
+			"buttonText": {"displayText": " MENU"
 			},"type": "RESPONSE"}
 			], "headerType": 1,
 			}, MessageType.buttonsMessage )
@@ -4165,7 +4165,7 @@ case 'linkgc':
         case 'info':
         case 'infobot':  // Jangan Di Ubah Plise
                gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
-               thankslort = `*[━━━━ INFO BOT ━━━━]*\n*➤ Nama : Hêrmåñ ßð†z*\n*➤ Pukul : ${moment().utcOffset('+0700').format('HH:mm')}*\n*➤ Tanggal : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*➤ Tipe : Node Js*\n*➤ Version : 3.3*\n*[━━━━━━━━━━━━━━━━━━]*`
+               thankslort = `*[━━━━ INFO BOT ━━━━]*\n*➤ Nama : FAISAL ßð†z*\n*➤ Pukul : ${moment().utcOffset('+0700').format('HH:mm')}*\n*➤ Tanggal : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*➤ Tipe : Node Js*\n*➤ Version : 3.3*\n*[━━━━━━━━━━━━━━━━━━]*`
              dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: thankslort })
              break
       case 'get':
@@ -4481,25 +4481,25 @@ case 'quotesdilan':
 					break                            
 //------------------< Menunya Bang:v >-------------------
       case 'dana':
-             reply(`DANA : 083146208804\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
+             reply(`DANA : 085877064290\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
              break
              case 'y':
-             reply(`JANGAN MELANGGAR YA ANJG🗿`)
+             reply(`JANGAN MELANGGAR YA ANJG🗿[FAISAL]`)
              break
              case 't':
-             reply(`BISMILAH BACA YASIN BUAT YANG MENINGGAL EH BUAT YANG KELUAR MAKSUDNYA 🤭`)
+             reply(`BISMILAH BACA YASIN BUAT YANG MENINGGAL EH BUAT YANG KELUAR MAKSUDNYA 🤭[FAISAL]`)
              break
            case 'gopay':
-             reply(` اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n*“Jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimat thayyibah”* [HR. Bukhari 6539, Muslim 1016\n\n*Goopay :* 083840290711\n𝑀𝑎𝑘𝑎𝑠𝑖ℎ 𝑌𝑎 𝑌𝑔 𝑆𝑢𝑑𝑎ℎ 𝐷𝑜𝑛𝑎𝑠𝑖.`)
+             reply(` اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n*“Jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimat thayyibah”* [HR. Bukhari 6539, Muslim 1016\n\n*Goopay :* 085877064290\n𝑀𝑎𝑘𝑎𝑠𝑖ℎ 𝑌𝑎 𝑌𝑔 𝑆𝑢𝑑𝑎ℎ 𝐷𝑜𝑛𝑎𝑠𝑖.`)
              break  
          case 'pulsa':
-             reply(` اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n*“Jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimat thayyibah”* [HR. Bukhari 6539, Muslim 1016\n\n*Pulsa :* 083146208804\n𝑀𝑎𝑘𝑎𝑠𝑖ℎ 𝑌𝑎 𝑌𝑔 𝑆𝑢𝑑𝑎ℎ 𝐷𝑜𝑛𝑎𝑠𝑖.`)
+             reply(` اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n*“Jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimat thayyibah”* [HR. Bukhari 6539, Muslim 1016\n\n*Pulsa :* 085877064290\n𝑀𝑎𝑘𝑎𝑠𝑖ℎ 𝑌𝑎 𝑌𝑔 𝑆𝑢𝑑𝑎ℎ 𝐷𝑜𝑛𝑎𝑠𝑖.`)
              break              
       case 'infoig':
-             reply(`Follow Instagram Owner Ya : https://instagram.com/cal_me_herman?utm_medium=copy_link`)
+             reply(`Follow Instagram Owner Ya : GDA IG BG`)
              break
       case 'grupbot':
-             reply('https://chat.whatsapp.com/L9HTjy9FBJIBm3SfQS1pE5')
+             reply('https://chat.whatsapp.com/H77HMozXHrr0qQx9GHPizJ')
              break
       case 'ownermenu':
              dha.sendMessage(from, ownerMenu(prefix), MessageType.text, {quoted: troli})
